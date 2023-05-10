@@ -1,8 +1,8 @@
-name: Deploy website
+name: Artifact website
 on:
   push:
     branches:
-      - test_main
+      - main
 jobs:
   test:
     runs-on: ubuntu-latest
